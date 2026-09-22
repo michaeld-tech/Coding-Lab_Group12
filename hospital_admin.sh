@@ -16,10 +16,12 @@ initialize_system() {
         mkdir -p reports
     fi
 }
-initialize_system
 
 secure_data() {
     chmod 700 active_logs
     ls -ld active_logs
 }
+
+initialize_system
 secure_data
+echo "System Environment Secured - $(date)"
