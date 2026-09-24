@@ -28,4 +28,3 @@ END {
     	     print "No ICU_WATER_RESERVE readings found."								
     }' "$file"
 }
-water_aud
