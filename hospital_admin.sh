@@ -49,3 +49,13 @@ secure_data
     fi
 }
  master
+ # Member 3 - Orchestrator
+
+echo "Starting Hospital System Setup..."
+
+initialize_system
+
+secure_data
+
+echo "System Environment Secured"
+echo "Date: $(22)"
