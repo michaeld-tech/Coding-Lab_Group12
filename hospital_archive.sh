@@ -30,6 +30,8 @@ rotate_logs() {
             echo "Warning: $src not found, skipping."
         fi
     done
+     archived_count=$(ls "$ARCHIVED_LOGS" 2>/dev/null | grep "$timestamp" | wc -l)
+    echo "Total files archived in this run: $archived_count"
 
     echo "Recreating empty log files in $ACTIVE_LOGS for continuity..."
     touch "$ACTIVE_LOGS/heart_rate_log.log"
