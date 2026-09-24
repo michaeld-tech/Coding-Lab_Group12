@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+
+=======
+>>>>>>> 8054a2d9f8bcdf4a69ba24b7390bde8986474bfa
 #!/usr/bin/env python3
 import random
 import time
